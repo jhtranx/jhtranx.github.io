@@ -471,6 +471,7 @@ there.
   .title { font-size: 2rem; line-height: 2;  
     /* letter-spacing: 1rem; text-align: justify;  */
     /* text-justify: inter-word; */
+    width: fit-content;
   }
 }
 
