@@ -467,11 +467,10 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .title { font-size: 2rem; line-height: 2;  
     /* letter-spacing: 1rem; text-align: justify;  */
     /* text-justify: inter-word; */
-    width: fit-content;
   }
 }
 
