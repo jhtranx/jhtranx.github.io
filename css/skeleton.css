@@ -472,6 +472,11 @@ there.
     letter-spacing: 1rem; text-align: justify;
     text-justify: inter-word;
   }
+  /* for dynanmic background change */
+  .section1 {
+    height: 4000px;
+    background-color: rgb(23, 43, 100)
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
