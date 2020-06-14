@@ -502,12 +502,8 @@ there.
   }
 
   /* for tables in mobile */
-  ul ul,
-  ul ol,
-  ol ol,
-  ol ul {
-    margin: 1.5rem 0 1.5rem 3rem;
-    font-size: 70%; }
+  .mobiletable                   { width: 80%; }
+
 
   /* for dynanmic background change */
   .section1 {
