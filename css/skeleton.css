@@ -500,6 +500,10 @@ there.
     letter-spacing: 1.5rem; text-align: justify;
     text-justify: inter-word;
   }
+
+  /* for tables in mobile */
+  .six.columns                    { width: 39.3333333333%;}
+
   /* for dynanmic background change */
   .section1 {
     height: 4000px;
