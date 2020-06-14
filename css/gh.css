@@ -114,7 +114,7 @@ nav ul li.icon { display: none; }
 	}
 
 	nav.mobile ul ul li a {
-		font-size: small;
+		display: none;
 	}
 	
 	nav.mobile ul li ul {
