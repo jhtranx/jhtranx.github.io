@@ -501,9 +501,6 @@ there.
     text-justify: inter-word;
   }
 
-  /* for tables in mobile */
-  .mobiletable                   { width: 80%; }
-
 
   /* for dynanmic background change */
   .section1 {
