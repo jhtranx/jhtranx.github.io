@@ -519,6 +519,9 @@ there.
     letter-spacing: 3.0rem; text-align: justify; 
     text-justify: inter-word;
   }
+  .imagesize {
+    height: 200px;
+  }
 }
 
 /* Larger than desktop */
