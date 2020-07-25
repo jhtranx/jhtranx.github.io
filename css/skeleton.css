@@ -425,8 +425,8 @@ hr {
 }
 
 .opacityPulse4-css {
-  animation: opacityPulse 5s ease-out;
-  animation-iteration-count: .5; 
+  animation: opacityPulse 2s ease-out;
+  animation-iteration-count: 1.5; 
   opacity: 1;
   text-align: center;
 }
