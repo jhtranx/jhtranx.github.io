@@ -424,6 +424,13 @@ hr {
   text-align: center;
 }
 
+.opacityPulse4-css {
+  animation: opacityPulse 5s ease-out;
+  animation-iteration-count: .5; 
+  opacity: 1;
+  text-align: center;
+}
+
 .pulsate-css {
   border: 3px solid #999;
   border-radius: 30px;
