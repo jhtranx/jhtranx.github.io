@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Justin Tran - Discord Bot</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/gh.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<header>
+  <div>
+    <!-- menu bar goes here -->
+    <nav class="nav-show">
+      <div class="container">
+          <ul>
+              <li><a href="index.html">Justin Tran</a></li>
+              <li>
+                  <a href="projects.html">Projects</a>
+                  <ul>
+                    <li><a href="discordbot.html">Discord Webscrape Bot</a></li>
+                    <li><a href="isarebrand.html">Information Systems Associaton Rebranding</a></li>
+                      
+                    <!-- <li><a href="#">Korean American Student Associaton Marketing</a></li> -->
+                  </ul>
+              </li>
+              <li>
+                <a href="multimedia.html">Multimedia</a>
+                <ul>
+                    <li><a href="sfmoma.html">San Francisco Museum of Modern Art - Soundtracks Exhibit Video</a></li>
+                    <!-- <li><a href="#">Korean American Student Associaton Marketing</a></li> -->
+                </ul>
+              </li>
+              <li class="u-pull-right"><a href="about.html">About</a></li>
+              <li class="right">
+                <a href="#contacts">Contact</a>
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/justin-tran-a4848a183/" style="display: block">LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/justinhtran/?hl=en" style="display: block">Instagram</a></li>
+                  <li><a href="mailto:jhtranx@gmail.com" style="display: block">Email</a></li>
+                </ul>
+              </li>
+              
+              <li class="icon">
+                  <a href="javascript:void(0);" onclick="toggleMobileNav();">&#9776;</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="js/gh.js"></script> -->
+
+  </div>
+</header>
+
+
+<body>
+  <div class="containter" style="background: linear-gradient(to bottom, #666699 10%, #25222c 100%);;">
+      <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 12%; margin-bottom: 5%;">
+          <img src="images/discordbot_title.png" alt="home" style="width:100%" >
+        </div>
+        <div class="six columns" style="margin-top: 10%; color: white; ">
+          <h4 style="letter-spacing: 5px; word-spacing: 2px; font-size: 3rem; text-align: justify; 
+          text-justify: inter-word;">DISCORD-WEBSCRAPE CHAT BOT</h4>
+        </div>
+
+        
+        <table class="five columns" style="color:white; margin-top: 5%;">
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Time Frame</th>
+              <th>Tools and Methods</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Developer</td>
+              <td>July 2020</td>
+              <td>Python, <br> Beautiful Soup, <br> Discord API</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="row" style="color:white; margin-top: 5%; line-height: 200%">
+        <div class="tweleve columns" style="margin-top: 25%">
+          <h4>Overview</h4>
+          <p>Discord has become overwhelmingly popular in recent years. It provides an <u><b>all-in-one experience</b></u> for users that are interested in gaming and socializing. “Automated programs that look and act like users and automatically respond to events and commands on Discord are called bot users. Discord bot users (or just bots) have nearly <i><b>unlimited applications.</b></i>” (Alex Ronquillo, RealPython)</p>
+        </div>
+      </div>
+
+
+      <div class="row" style="color:white; margin-top: 5%; line-height: 200%">
+        <div class="eight columns" style="margin-top: 25%">
+          <h4><b>Problem</b> &#10143; <i>Repetition</i></h4>
+          <h6 style="line-height: 200%;"> Online shopping can sometimes be hectic. Obtaining the best deals on specific items that are in high demand can be challenging. I wanted to be able to find out prices of different pairs of Converse without having to individually open a tab for each item. </h6>
+        </div>
+        <div class="four columns" style="margin-top: 25%; text-align: center;">
+          <img src="images/discordbot_shop.png" alt="home" style="width:60%; filter: saturate(30%);" >
+        </div>
+      </div>
+
+
+      <div class="row" style="color:white; margin-top: 5%; line-height: 200%">
+        <div class="column" style="margin-top: 25%;">
+          <h4><b>Solution</b> &#10143; <i>"Learning is like collecting seashells."</i></h4>
+          <h6 style="line-height: 200%;"> I built a Discord bot that scrapes data off of the various websites that I am interested in. </h6>
+        </div>
+      </div>
+
+
+      <div class="row" style="color:white; margin-top: 10%; line-height: 200%">
+        <div class="twelve columns">
+          <h4><b>1</b>. <i>Webscraping</i></h4>
+          <h6 style="line-height: 200%;"> I learned how to ... </h6>
+          <ul>
+            <li>use requests and Beautiful Soup for scraping and parsing data from the Web</li>
+            <li>walk through a web scraping pipeline from start to finish</li>
+            <li>build a script that fetches data from the Web and displays relevant information in the console</li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="row" style="color:white; margin-top: 5%;">
+        <div class="twelve columns" style="margin-top: 5%">
+          <img src="images/discordbot_chrome.png" alt="home" class="shadow" style="width:100%" >
+        </div>
+        <div class="twelve columns" style="margin-top: 5%">
+          <pre><code style="background-color: rgb(47, 46, 48);">
+            import requests
+            from bs4 import BeautifulSoup
+    
+            def getDetails(URL):
+                page = requests.get(URL).text
+                soup = BeautifulSoup(page, 'html.parser')
+    
+                model = getModel(soup)
+                color = getColor(soup)
+                price = getPrice(soup)
+    
+                return model + '\n' +  color + '\n' + price
+            </code></pre>
+        </div>
+      </div>
+
+      <div class="row" style="color:white; margin-top: 10%; line-height: 200%">
+        <div class="two-thirds column">
+          <h4><b>2</b>. <i>Discord API</i></h4>
+          <h6 style="line-height: 200%;"> I learned how to ... 
+          </h6>
+          <ul>
+            <li>make a Discord bot through the Developer Portal</li>
+            <li>create Discord connections</li>
+            <li>handle events</li>
+            <li>accept commands and validate assumptions</li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="row" style="color:white; margin-top: 5%;">
+        <div class="twelve columns" style="margin-top: 5%">
+          <img src="images/discordbot_demo.gif" alt="home" class="shadow" style="width:100%" >
+        </div>
+        <div class="twelve columns" style="margin-top: 5%">
+          <pre><code style="background-color: rgb(47, 46, 48);">
+            @bot.command(name='converse')
+            async def conversePrice(ctx):
+                
+              response = converse.getString()
+              await ctx.send(response)
+            </code></pre>
+        </div>
+      </div>
+
+
+      <div class="row" style="color:white; margin-top: 25%; margin-bottom: 15%;">
+        <div class="two-thirds column">
+          <img src="images/discordbot_github.png" alt="home" style="width:100%" >
+        </div>
+        <div class="one-third column" style="margin-top: 10%">
+          <h4>Full code available on Github</h4>
+          <a class="button" href="https://github.com/jhtranx/discord-webscrape-bot" style="color: pink">github repo</a>
+        </div>
+    </div>
+  </div>
+
+  
+      
+
+  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script  src="js/gh.js"></script>
+</body>
+</html>
