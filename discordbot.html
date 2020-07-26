@@ -158,23 +158,24 @@
         <div class="twelve columns" style="margin-top: 5%">
           <img src="images/discordbot_chrome.png" alt="home" class="shadow" style="width:100%" >
         </div>
-        <div class="twelve columns" style="margin-top: 5%">
-          <pre><code style="background-color: rgb(47, 46, 48);">
-            import requests
-            from bs4 import BeautifulSoup
-    
-            def getDetails(URL):
-                page = requests.get(URL).text
-                soup = BeautifulSoup(page, 'html.parser')
-    
-                model = getModel(soup)
-                color = getColor(soup)
-                price = getPrice(soup)
-    
-                return model + '\n' +  color + '\n' + price
-            </code></pre>
-        </div>
       </div>
+
+      <pre>
+        <code style="background-color: rgb(47, 46, 48); color:white">
+        import requests
+        from bs4 import BeautifulSoup
+
+        def getDetails(URL):
+            page = requests.get(URL).text
+            soup = BeautifulSoup(page, 'html.parser')
+
+            model = getModel(soup)
+            color = getColor(soup)
+            price = getPrice(soup)
+
+            return model + '\n' +  color + '\n' + price
+        </code>
+      </pre>
 
       <div class="row" style="color:white; margin-top: 10%; line-height: 200%">
         <div class="two-thirds column">
@@ -195,16 +196,18 @@
         <div class="twelve columns" style="margin-top: 5%">
           <img src="images/discordbot_demo.gif" alt="home" class="shadow" style="width:100%" >
         </div>
-        <div class="twelve columns" style="margin-top: 5%">
-          <pre><code style="background-color: rgb(47, 46, 48);">
-            @bot.command(name='converse')
-            async def conversePrice(ctx):
-                
-              response = converse.getString()
-              await ctx.send(response)
-            </code></pre>
-        </div>
+        
       </div>
+
+      <pre>
+        <code style="background-color: rgb(47, 46, 48); color:white">
+        @bot.command(name='converse')
+        async def conversePrice(ctx):
+            
+          response = converse.getString()
+          await ctx.send(response)
+        </code>
+      </pre>
 
 
       <div class="row" style="color:white; margin-top: 25%; margin-bottom: 15%;">
@@ -215,6 +218,8 @@
           <h4>Full code available on Github</h4>
           <a class="button" href="https://github.com/jhtranx/discord-webscrape-bot" style="color: pink">github repo</a>
         </div>
+      </div>
+      
     </div>
   </div>
 
