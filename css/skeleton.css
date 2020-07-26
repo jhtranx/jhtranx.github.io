@@ -412,17 +412,19 @@ hr {
     text-align: center;
 }
 .opacityPulse2-css {
-  animation: opacityPulse 9s ease-out;
+  animation: opacityPulse 8s ease-out;
   animation-iteration-count: infinite; 
   opacity: 1;
   text-align: center;
+  animation-delay: 0.5s
 }
 
 .opacityPulse3-css {
-  animation: opacityPulse 10s ease-out;
+  animation: opacityPulse 8s ease-out;
   animation-iteration-count: infinite; 
   opacity: 1;
   text-align: center;
+  animation-delay: 1s
 }
 
 .opacityPulse4-css {
