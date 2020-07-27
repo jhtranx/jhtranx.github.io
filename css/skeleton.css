@@ -410,16 +410,9 @@ hr {
     animation-iteration-count: infinite; 
     opacity: 1;
     text-align: center;
+    animation-delay: 0.5s
 }
 .opacityPulse2-css {
-  animation: opacityPulse 8s ease-out;
-  animation-iteration-count: infinite; 
-  opacity: 1;
-  text-align: center;
-  animation-delay: 0.5s
-}
-
-.opacityPulse3-css {
   animation: opacityPulse 8s ease-out;
   animation-iteration-count: infinite; 
   opacity: 1;
@@ -427,8 +420,16 @@ hr {
   animation-delay: 1s
 }
 
+.opacityPulse3-css {
+  animation: opacityPulse 8s ease-out;
+  animation-iteration-count: infinite; 
+  opacity: 1;
+  text-align: center;
+  animation-delay: 1.5s
+}
+
 .opacityPulse4-css {
-  animation: opacityPulse 2s ease-out;
+  animation: opacityPulse 2s ease-in;
   animation-iteration-count: 1.5; 
   opacity: 1;
   text-align: center;
