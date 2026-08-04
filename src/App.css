@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #617bfbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  color: #2b2a2a;
+  text-align: justify;
+  text-align-last: justify;
+  backface-visibility: hidden;
+}
+
+.read-the-docs {
+  color: #e5e5e5;
+}
+
+.filled-outline-text {
+  background-color: #2b2a2a;
+  border: 1.25px solid #2b2a2a;
+  border-radius: 0 0 8px 8px;
+  padding: 4px 10px;
+}
+
+.outline-text-top {
+  border: 1.25px solid #2b2a2a;
+  border-radius: 8px 8px 0 0;
+  padding: 4px 10px;
+  display: inline-block;
+}
+
+.outline-text {
+  border: 1.25px solid #2b2a2a;
+  border-radius: 8px 8px 8px 8px;
+  padding: 4px 10px;
+  display: inline-block;
+  background-color: #e5e5e5;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+}
+
+.card-front {
+  z-index: 2;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Text selection styling */
+::selection {
+  background-color: black;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: black;
+  color: white;
+}
+
+/* Show default cursor */
+
+/* Cursor sprite styling */
+.cursor-sprite {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
